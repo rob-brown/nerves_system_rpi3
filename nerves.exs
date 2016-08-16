@@ -8,7 +8,7 @@ version =
 config :nerves_system_rpi3, :nerves_env,
   type: :system,
   version: version,
-  build_platform: Nerves.Build.Platforms.BR,
-  build_config: [
+  platform: Nerves.Build.Platforms.BR,
+  platform_config: [
     defconfig: "nerves_defconfig"
   ]
